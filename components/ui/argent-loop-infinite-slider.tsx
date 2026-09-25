@@ -294,6 +294,7 @@ export function Component() {
       window.removeEventListener("resize", onResize);
       if (requestRef.current) cancelAnimationFrame(requestRef.current);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const indices = [];

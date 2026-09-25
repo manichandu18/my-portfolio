@@ -1,9 +1,9 @@
 # 🚀 The Ultimate Next.js 14 + GSAP Portfolio Blueprint & AI Master Prompt
 
-> **Shared by Devender Gopagoni**  
+> **Shared by Mani Chandra Babu**  
 > *Full-Stack Web Developer & UI/UX Product Builder*  
-> 🔗 **GitHub Repository**: [github.com/devendharoff/devendhar-glass-portfolio](https://github.com/devendharoff/devendhar-glass-portfolio)  
-> ✉️ **Contact / Inquiries**: `devendhargopagoni@gmail.com`
+> 🔗 **GitHub Repository**: [github.com/manichandu18/my-portfolio](https://github.com/manichandu18/my-portfolio)  
+> ✉️ **Contact / Inquiries**: `maddelamanichandu@gmail.com`
 
 ---
 
@@ -110,7 +110,7 @@ Component Requirements:
 7. Cinematic Footer & Social Logos (`#sec-cta-footer`):
    - Dark background (`#050507`).
    - Headline: "Have an idea? Let's turn it into something real."
-   - Action Buttons: Primary "Get In Touch" email button (`mailto:devendhargopagoni@gmail.com`) + Official SVG Brand Pills for GitHub, LinkedIn, and Instagram.
+   - Action Buttons: Primary "Get In Touch" email button (`mailto:maddelamanichandu@gmail.com`) + Official SVG Brand Pills for GitHub, LinkedIn, and Instagram.
    - Footer Grid: 4-column layout for Bio, Navigation, Social Links, and Copyright.
 
 Build Configuration:
@@ -119,4 +119,4 @@ Build Configuration:
 ```
 
 ---
-© 2026 Devender Gopagoni. All rights reserved.
+© 2026 Mani Chandra Babu. All rights reserved.

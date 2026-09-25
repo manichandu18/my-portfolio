@@ -118,12 +118,13 @@ export default function ResumePage() {
         <div className="max-w-6xl mx-auto flex items-center justify-between gap-4">
           <Link
             href="/"
-            className="group flex items-center gap-2 text-xs sm:text-sm font-mono text-zinc-400 hover:text-white transition-colors py-1.5 px-3 rounded-full hover:bg-white/5 border border-transparent hover:border-white/10"
+            className="group flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm font-mono text-zinc-400 hover:text-white transition-colors py-1.5 px-2.5 sm:px-3 rounded-full hover:bg-white/5 border border-transparent hover:border-white/10 shrink-0"
           >
             <svg className="w-4 h-4 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
-            <span>Back to Portfolio</span>
+            <span className="hidden sm:inline">Back to Portfolio</span>
+            <span className="sm:hidden">Portfolio</span>
           </Link>
 
           <div className="flex items-center gap-2 sm:gap-3">
@@ -171,9 +172,12 @@ export default function ResumePage() {
                 {/* Glowing border ring */}
                 <div className="absolute -inset-1.5 bg-gradient-to-r from-blue-500 via-indigo-500 to-cyan-400 rounded-full blur-md opacity-75 group-hover/avatar:opacity-100 transition duration-500 animate-pulse" />
                 <div className="relative w-36 h-36 sm:w-40 sm:h-40 rounded-full overflow-hidden border-2 border-white/20 bg-zinc-900 shadow-2xl">
-                  <img
+                  <Image
                     src="/images/mani-photo.jpg"
                     alt="M. Manichandra Babu"
+                    width={160}
+                    height={160}
+                    priority
                     className="w-full h-full object-cover object-center group-hover/avatar:scale-105 transition-transform duration-500"
                   />
                 </div>

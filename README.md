@@ -46,4 +46,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - **Location**: Rayachoti, Andhra Pradesh, India - 516269
 
 ---
-© 2026 M. Manichandra Babu. All rights reserved.
+© 2026 Mani Chandra Babu. All rights reserved.

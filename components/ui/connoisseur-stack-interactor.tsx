@@ -136,6 +136,7 @@ export const Component = ({
       createLoop(0);
     }, containerRef);
     return () => ctx.revert();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [items]);
 
   const handleItemHover = (index: number) => {

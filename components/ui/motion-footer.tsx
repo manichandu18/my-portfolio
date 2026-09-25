@@ -367,7 +367,7 @@ export function CinematicFooter() {
             
             {/* Copyright */}
             <div className="text-muted-foreground text-[10px] md:text-xs font-semibold tracking-widest uppercase order-2 md:order-1">
-              © 2026 Volvox. All rights reserved.
+              © 2026 Mani Chandra Babu. All rights reserved.
             </div>
 
             {/* "Made with Love" Badge */}
@@ -375,7 +375,7 @@ export function CinematicFooter() {
               <span className="text-muted-foreground text-[10px] md:text-xs font-bold uppercase tracking-widest">Crafted with</span>
               <span className="animate-footer-heartbeat text-sm md:text-base text-destructive">❤</span>
               <span className="text-muted-foreground text-[10px] md:text-xs font-bold uppercase tracking-widest">by</span>
-              <span className="text-foreground font-black text-xs md:text-sm tracking-normal ml-1">Volvox</span>
+              <span className="text-foreground font-black text-xs md:text-sm tracking-normal ml-1">Mani Chandra Babu</span>
             </div>
 
             {/* Back to top */}

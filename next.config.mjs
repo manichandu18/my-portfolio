@@ -1,11 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  outputFileTracing: false,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'api.iconify.design',
+      },
+    ],
+  },
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false,
   },
 };
 
